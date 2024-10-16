@@ -6,35 +6,26 @@
 		<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
 
 		<title>Los viajes de Elba</title>
-		
-		<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-		
+		<link rel="stylesheet" href="CSS/estilos.CSS">	
 	</head>
 	<body>
-
-		<!-- ========== HEADER
-		================================================= -->
-		
-		<header>
-			
-			<h1>LOS VIAJES DE ELBA</h1>
-			
+		<div class="body">
+			<!-- ========== HEADER================================================= -->
+		<div class="header">
+			<h1 class>LOS VIAJES DE ELBA</h1>
 			<p class="lead">Descubre destinos increíbles y planea tus próximos viajes.</p>
-			
-		</header>
+		</div>
 		
 		<!-- ========== NAVBAR
 		================================================= -->
 		
 		<div class="navbar">
-			
 			<ul>
 				<li><a href="index.html">Inicio</a></li>
 				<li><a href="blog.html">Blog</a></li>
 				<li><a href="fotos.html">Fotos</a></li>
 				<li><a href="contacto.html">Contacto</a></li>
-			</ul>
-			
+			</ul>	
 		</div>
 		
 		<!-- ========== POST - POST 1
@@ -43,8 +34,7 @@
 		<div class="post" id="post-uno">
 			
 			<div class="post-header">
-				
-				<h3>Las playas de Tailandia</h3>
+				<h3>		Las playas de Tailandia</h3>
 				<img src="img/kohphiphi.jpg" alt="Playa de Koh Phi Phi" height="350px" width="600px">
 				<p class="subtitulo">Publicado el <time datetime="2015-10-08 17:35">8 de Octubre de 2015 a las 17:35</time> | Categorías: <a href="#">playas</a>, <a href="#">asia</a>, <a href="#">exótico</a></p>
 				
@@ -57,7 +47,7 @@
 
 Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
 
-				<table>
+				<table class="precios">
 					<tr>
 						<th>Compras</th>
 						<th>Precio en Bath</th>
@@ -104,20 +94,19 @@ Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut ferm
 			<div class="post-body">
 				
 				<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis. Curabitur blandit tempus porttitor. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-
-				<table>
-					<tr>
-						<td><img src="img/central-park.jpg" alt="Foto de Nueva York 1" height="250px" width="450px"></td>
-						<td><img src="img/estatua.jpeg" alt="Foto de Nueva York 2" height="250px" width="450px"></td>
-					</tr>
-					<tr>
-						<td><img src="img/new-york-city.jpg" alt="Foto de Nueva York 3" height="250px" width="450px"></td>
-						<td><img src="img/times.jpeg" alt="Foto de Nueva York 4" height="250px" width="450px"></td>
-					</tr>
-				</table>
-				
+				<div class="table-img">
+					<table class="table-imgNY">
+						<tr>
+							<td><img src="img/central-park.jpg" alt="Foto de Nueva York 1" height="250px" width="450px"></td>
+							<td><img src="img/estatua.jpeg" alt="Foto de Nueva York 2" height="250px" width="450px"></td>
+						</tr>
+						<tr>
+							<td><img src="img/new-york-city.jpg" alt="Foto de Nueva York 3" height="250px" width="450px"></td>
+							<td><img src="img/times.jpeg" alt="Foto de Nueva York 4" height="250px" width="450px"></td>
+						</tr>
+					</table>
+				</div>
 			</div><!-- end post-body -->
-			
 		</div><!-- end post -->
 		
 		
@@ -131,12 +120,12 @@ Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut ferm
 			<form>
 				
 				<fieldset>
-					<label>Nombre: <input type="text" name="nombre"></label>
-					<label>Email: <input type="email" name="mail"></label>
+					<label>Nombre: <input type="text" name="nombre" id="imputs"></label>
+					<label>Email: <input type="email" name="mail" id="imputs"></label>
 					
 					<br><br>
 					
-					<label>Acepto las condiciones de la suscripción <input type="checkbox" name="condiciones"></label>
+					<label>Acepto las condiciones de la suscripción <input type="checkbox" name="condiciones" id="checkbox"></label>
 					
 					<br><br>
 					
@@ -146,6 +135,6 @@ Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut ferm
 			</form>
 			
 		</footer>
-
+		</div>
 	</body>
 </html>

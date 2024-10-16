@@ -1,0 +1,125 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #212121;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+/*======================================================================>Header*/
+.header{
+    background-color: #242038;
+    color: white;
+    font-size: 20px;
+    padding: 20px 0;
+    margin: 0;
+    text-align: center;
+}
+h1, h3, .lead{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*======================================================================>NAV-BAR*/
+.navbar{
+    background-color: #725AC1;
+    width: auto;
+    height: 25px;
+    padding: 25px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    float: left;
+    display: block;
+}
+li a{
+    color: #212121;
+    font-size: 15px;
+    padding: 0 10px;
+    margin: 20px;
+    border: 3px solid whitesmoke;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+li a:hover{
+    color: whitesmoke;
+    border-color: #242038;
+    background-color: #242038;  
+}
+
+/*======================================================================>POSTS*/
+.post{
+    margin: 30px;
+    padding: 10px;
+    border: 5px solid #8D86C9;
+    border-radius: 5px;
+}
+.post-header{
+    text-align: center;
+}
+h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+.subtitulo a, .subtitulo{
+    font-size: 12px;
+    color: #212121;
+}
+.subtitulo a:hover, a:hover{
+    color: #725AC1;
+}
+.post-body{
+    font-size: 15px;
+    margin: 25px;
+    text-align: justify;
+}
+.precios{
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+.precios, .precios th, .precios td{
+    border: 2px solid #8D86C9;
+    text-align: left;
+    padding: 5px;
+}
+.table-imgNY{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+.table-imgNY tr, .table-imgNY td{
+    border: 3px solid #8D86C9;
+    padding: 20px;
+}
+
+/*======================================================================>FOOTER*/
+footer{
+    background-color: #242038;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+#imputs{
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+.submitbutton{
+    padding: 10px 20px;
+    background-color: #8D86C9;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.submitbutton:hover{
+    background-color: #725AC1;
+    color: #212121;
+}
